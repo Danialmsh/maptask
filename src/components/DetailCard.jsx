@@ -12,7 +12,7 @@ const DetailCard = ({ item }) => {
             <Box sx={{ px: 2, pt: 2, pb: 1, display: 'flex', alignItems: 'center', justifyContent: 'space-between' }}>
                 <Stack direction="row" spacing={1.2} alignItems="center">
                     <img
-                        src="../../public/images/store.png"
+                        src="/images/store.png"
                         alt={item.name}
                         style={{ width: 50, height: 50, marginLeft: 16 }}
                     />
